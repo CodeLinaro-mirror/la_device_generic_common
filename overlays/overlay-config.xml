@@ -16,6 +16,7 @@
 
 <config>
     <!-- Immutable overlays must precede mutable ones -->
+    <overlay package="android.gsi.overlay" mutable="false" enabled="true" />
     <overlay package="com.android.systemui.gsi.overlay" mutable="false" enabled="true" />
 
     <!-- Mutable overlays -->
